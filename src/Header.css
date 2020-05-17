@@ -32,14 +32,16 @@
     grid-row: 1;
 }
 .github_icon:hover{
-    transform: translate(0px,-5px);
+    background-color: #de57a5;
+    border-radius: 50%;
 }
 .linkedin {
     grid-column: 2 / 3;
     grid-row: 1;
 }
 .linkedin_icon:hover{
-    transform: translate(0px,-5px);
+    background-color: #faed5c;
+    border-radius: 50%;
 }
 .greeting {
     grid-column: 2 / 12;
@@ -64,6 +66,7 @@
 .tech_icon {
     grid-column: 2 / 12;
     grid-row: 9;
+    padding-bottom: 20px;
 }
 
 /* elements */
