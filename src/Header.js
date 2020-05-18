@@ -28,15 +28,15 @@ const Header = () => {
       <div className="profile"><img src={profile_photo} className="profile_photo" alt="yukariim_photo" /></div>
       <div className="experience"><h3>Experience</h3></div>
       <div className="technology">
-        <h4>React, Redux, JavaScript ES6, Python, Flask, SQL, SQLAlchemy, RBAC, Kubernetes, Docker, Figma, HTML5, CSS3</h4></div>
+        <h4>React, Redux, JavaScript ES6, HTML5, CSS3, Python, Flask, SQL, SQLAlchemy, RBAC, Kubernetes, Docker, Figma</h4></div>
       <div className="tech_icon">
         <img src={react_icon} alt="React" />
         <img src={redux_icon} alt="Redux" />
         <img src={javascript_icon} alt="JavaScript" />
-        <img src={python_icon} alt="Python" />
-        <img src={sql_icon} alt="SQL" />
         <img src={html_icon} alt="HTML" />
         <img src={css_icon} alt="CSS" />
+        <img src={python_icon} alt="Python" />
+        <img src={sql_icon} alt="SQL" />
       </div>
     </div>
     );
