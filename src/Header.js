@@ -6,6 +6,7 @@ import profile_photo from './image/profile_photo.jpg';
 import python_icon from './image/icons8-python-64.png';
 import sql_icon from './image/icons8-sql-64.png';
 import react_icon from './image/icons8-react-64.png';
+import redux_icon from './image/icons8-redux-64.png';
 import javascript_icon from './image/icons8-javascript-64.png';
 import css_icon from './image/icons8-css3-64.png';
 import html_icon from './image/icons8-html-5-64.png';
@@ -27,12 +28,13 @@ const Header = () => {
       <div className="profile"><img src={profile_photo} className="profile_photo" alt="yukariim_photo" /></div>
       <div className="experience"><h3>Experience</h3></div>
       <div className="technology">
-        <h4>React, JavaScript ES6, Python, Flask, SQL, SQLAlchemy, RBAC, Kubernetes, Docker, Figma, HTML5, CSS3</h4></div>
+        <h4>React, Redux, JavaScript ES6, Python, Flask, SQL, SQLAlchemy, RBAC, Kubernetes, Docker, Figma, HTML5, CSS3</h4></div>
       <div className="tech_icon">
+        <img src={react_icon} alt="React" />
+        <img src={redux_icon} alt="Redux" />
+        <img src={javascript_icon} alt="JavaScript" />
         <img src={python_icon} alt="Python" />
         <img src={sql_icon} alt="SQL" />
-        <img src={react_icon} alt="React" />
-        <img src={javascript_icon} alt="JavaScript" />
         <img src={html_icon} alt="HTML" />
         <img src={css_icon} alt="CSS" />
       </div>
