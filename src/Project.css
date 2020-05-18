@@ -36,7 +36,7 @@
         display: flex;
         background: linear-gradient(to right, #aab7f8, #e8a9ce);
         transition: all 1s;
-        box-shadow: 0 0 4px #d5deeb
+        filter: drop-shadow(5px 5px 3px rgba(0,0,0,0.4));
     }
 
     .project_list_item:hover {
